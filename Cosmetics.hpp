@@ -15,6 +15,8 @@
 #define Begin begin
 #define End end
 
+using namespace std::literals;
+
 constexpr auto operator""_size(unsigned long long Value) {
 	return static_cast<std::size_t>(Value);
 }
